@@ -21,6 +21,7 @@ const respostas = [
 ];
 const respostaAleatoria = document.querySelector("#respostaAleatoria");
 const perguntaUser = document.querySelector("#inputUser");
+const button = document.querySelector("#btn");
 
 const fazerPergunta = () => {
   if (perguntaUser.value == "") {
@@ -28,6 +29,7 @@ const fazerPergunta = () => {
 
     return;
   }
+  button.setAttribute("disabled", true);
   const pergunta = "<div>" + perguntaUser.value + "</div>";
 
   const totalRespostas = respostas.length;
@@ -40,5 +42,6 @@ const fazerPergunta = () => {
 
   setTimeout(() => {
     respostaAleatoria.style.opacity = 0;
+    button.removeAttribute("disabled");
   }, 2000);
 };
