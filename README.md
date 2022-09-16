@@ -6,6 +6,10 @@
 Projeto solicitado pela rocketseat no maratona explorer, criamos uma logica que ao receber uma pergunta no input retornamos
 uma frase aleatoria dando a sensação que o site está falando com o usuario.
 
+# Pages
+
+https://andradean.github.io/vou-adivinhar-seu-futuro/
+
 # Tecnologias usadas
 
 :one:-Javascript
