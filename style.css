@@ -50,3 +50,12 @@ button:hover {
   filter: brightness(1.2);
   cursor: pointer;
 }
+
+#respostaAleatoria {
+  margin-top: 15px;
+  margin-left: 50px;
+  transition: opacity 1s;
+}
+#respostaAleatoria div {
+  margin-bottom: 10px;
+}
