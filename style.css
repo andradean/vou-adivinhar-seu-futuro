@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -30,17 +31,16 @@ p {
 input,
 button {
   display: block;
+  width: 100%;
   padding: 20px;
   font-size: 20px;
 }
 input {
   margin-bottom: 20px;
-  width: 100%;
 }
 /*por algum motivo o btn não alinhou com 100% width */
 button {
   background-color: blueviolet;
-  width: 111.5%;
   border: none;
   color: white;
   transition: filter 0.2;
